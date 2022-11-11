@@ -1460,7 +1460,7 @@
                         }
                       ],
                       "labelPosition": "Left",
-                      "options": "[\n  {\n    \"label\": \"高一\",\n    \"value\": \"31\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"32\"\n  },\n  {\n    \"label\": \"高三\",\n    \"value\": \"33\"\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"高一\",\n    \"value\": \"31\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"32\"\n  }\n]",
                       "placeholderText": "选择",
                       "isDisabled": false,
                       "key": "iefw701psq",
