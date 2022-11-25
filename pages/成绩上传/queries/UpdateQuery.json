@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE score SET \nsg = {{update_form.formData.sg}}, \ntz = {{update_form.formData.tz}},\nfhl = {{update_form.formData.fhl}},\nm50 = {{update_form.formData.m50}},\nldty = {{update_form.formData.ldty}},\ntqq = {{update_form.formData.tqq}},\nzcp = \"{{update_form.formData.zcp}}\",\nywqzytxs = {{update_form.formData.ywqzytxs}},\nzsl = {{update_form.formData.zsl}},\nzyqjs = {{update_form.formData.zyqjs}},\nzyzjc = {{update_form.formData.zyzjc}},\nzyzwa = {{update_form.formData.zyzwa}},\nysl = {{update_form.formData.ysl}},\nyyqjs = {{update_form.formData.yyqjs}},\nyyzjc = {{update_form.formData.yyzjc}},\nyyzwa = {{update_form.formData.yyzwa}}\nWHERE id = {{data_table.selectedRow.id}};",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false

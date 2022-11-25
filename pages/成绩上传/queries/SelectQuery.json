@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT id,name,sex,sg,tz,fhl,m50,ldty,tqq,zcp,ywqzytxs,\nzsl,zyqjs,zyzjc,zyzwa,ysl,yyqjs,yyzjc,yyzwa\nFROM score\nWHERE grade = \"{{mygrade.selectedOptionValue}}\" and class = {{myclass.selectedOptionValue}}\nORDER BY sex,name",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false
