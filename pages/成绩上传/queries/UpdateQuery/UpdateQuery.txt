@@ -1,0 +1,20 @@
+UPDATE score SET 
+sg = {{update_form.formData.身高}}, 
+tz = {{update_form.formData.体重}},
+fhl = {{update_form.formData.肺活量}},
+m50 = {{update_form.formData.m50米跑}},
+ldty = {{update_form.formData.立定跳远}},
+zwtqq = {{update_form.formData.坐位体前屈}},
+m1000 = "{{update_form.formData.m1000米跑}}",
+m800 = "{{update_form.formData.m800米跑}}",
+ywqz = {{update_form.formData.一分钟仰卧起坐}},
+ytxs = {{update_form.formData.引体向上}}
+# zsl = {{update_form.formData.左视力}},
+# zyqj = {{update_form.formData.左眼球镜}},
+# zyzj = {{update_form.formData.左眼柱镜}},
+# zyzw = {{update_form.formData.左眼轴位}},
+# ysl = {{update_form.formData.右视力}},
+# yyqj = {{update_form.formData.右眼球镜}},
+# yyzj = {{update_form.formData.右眼柱镜}},
+# yyzw = {{update_form.formData.右眼轴位}}
+WHERE id = {{Table1.selectedRow.id}};

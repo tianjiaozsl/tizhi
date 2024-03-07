@@ -1,0 +1,9 @@
+SELECT 
+id,grade as 年级,class as 班级,xjh as 学籍号,name as 姓名,sex as 性别,
+sg as 身高,tz as 体重,fhl as 肺活量,m50 as 五十米跑,ldty as 立定跳远,zwtqq as 坐位体前屈,
+m800 as 八百米跑,m1000 as 一千米跑,ywqz as 一分钟仰卧起坐,ytxs as 引体向上
+# zsl as 左眼视力,zyqj as 左眼球镜,zyzj as 左眼柱镜,zyzw as 左眼轴位,
+# ysl as 右眼视力,yyqj as 右眼球镜,yyzj as 右眼柱镜,yyzw as 右眼轴位
+FROM score
+WHERE grade = "{{mygrade.selectedOptionValue}}" and class = "{{myclass.selectedOptionValue}}"
+ORDER BY 性别,姓名
